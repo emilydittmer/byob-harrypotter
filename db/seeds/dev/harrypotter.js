@@ -1,31 +1,33 @@
-const houses = require('../../../datasets/houses');
-const students = require('../../../datasets/students');
-
-const createHouse = (knex, house) => {
-  return knex('house').insert({
-    name: house.name,
-    mascot: house.mascot,
-    head: house.head,
-    ghost: house.ghost,
-    founder: house.founder,
-    school: house.school,
-    color: house.color
-  }, 'id')
-    .then(houseId => {
-      let studentPromises = [];
-
-      
-    })
-}
+const housesData = require('../../../datasets/houses');
+const studentsData = require('../../../datasets/students');
 
 exports.seed = function(knex) {
   return knex('students').del()
     .then(() => knex('houses').del())
-    .then(() => {
-      return Promise.all([
-        knex('houses').insert({
-
-        })
-      ])
+    .then(async () => {
+      await knex.raw('TRUNCATE TABLE houses RESTART IDENTITY CASCADE');
+      await knex.raw('TRUNCATE TABLE students RESTART IDENTITY CASCADE');
     })
+    .then(() => {
+      return knex('houses').insert(housesData);
+    })
+    .then(() => {
+      let studentPromises = [];
+      studentsData.forEach((student) => {
+        studentPromises.push(createStudent(knex, student));
+      });
+      return Promise.all(studentPromises);
+    })
+};
+
+const createStudent = (knex, student) => {
+  console.log(student.house_id);
+  return knex('houses').where('id', student.house_id).first()
+  .then((houseRecord) => {
+    console.log(houseRecord);
+    return knex('students').insert({
+      ...student,
+      house_id: houseRecord.id
+    });
+  });
 };

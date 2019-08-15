@@ -1,7 +1,7 @@
-modules.export = [
+module.exports = [
   {
     name: "Sirius Black",
-    house: "Gryffindor",
+    house_id: 1,
     school: "Hogwarts School of Witchcraft and Wizardry",
     alias: "Padfoot",
     animagus: "black dog",
@@ -15,7 +15,7 @@ modules.export = [
   {
     name: "Albus Dumbledore",
     role: "Headmaster, Hogwarts",
-    house: "Gryffindor",
+    house_id: 1,
     school: "Hogwarts School of Witchcraft and Wizardry",
     wand: "Elder, 15\", thestral tail hair",
     boggart: "Ariana (sister)",
@@ -30,7 +30,7 @@ modules.export = [
   {
     name: "Hermione Granger",
     role: "student",
-    house: "Gryffindor",
+    house_id: 1,
     school: "Hogwarts School of Witchcraft and Wizardry",
     wand: "Vine wood, 10 3/4\", dragon heartstring",
     boggart: "failure",
@@ -45,7 +45,7 @@ modules.export = [
   {
     name: "Neville Longbottom",
     role: "student",
-    house: "Gryffindor",
+    house_id: 1,
     school: "Hogwarts School of Witchcraft and Wizardry",
     wand: "Cherry, 13\", unicorn hair",
     boggart: "Severus Snape",
@@ -59,7 +59,7 @@ modules.export = [
   {
     name: "Remus Lupin",
     role: "Professor, Defence Against the Dark Arts",
-    house: "Gryffindor",
+    house_id: 1,
     school: "Hogwarts School of Witchcraft and Wizardry",
     alias: "Moony",
     wand: "Cypress, 10 1/4\", unicorn hair",
@@ -75,7 +75,7 @@ modules.export = [
   {
     name: "Minerva McGonagall",
     role: "Professor, Transfiguration",
-    house: "Gryffindor",
+    house_id: 1,
     school: "Hogwarts School of Witchcraft and Wizardry",
     wand: "Fir, 9 1/2\", dragon heartstring",
     boggart: "Lord Voldemort",
@@ -91,7 +91,7 @@ modules.export = [
   {
     name: "Harry Potter",
     role: "student",
-    house: "Gryffindor",
+    house_id: 1,
     school: "Hogwarts School of Witchcraft and Wizardry",
     alias: "The Boy Who Lived",
     wand: "Holly, 11\", phoenix feather",
@@ -107,7 +107,7 @@ modules.export = [
   {
     name: "Ronald Weasley",
     role: "student",
-    house: "Gryffindor",
+    house_id: 1,
     school: "Hogwarts School of Witchcraft and Wizardry",
     alias: "Ron",
     wand: "Willow, 14\", unicorn hair tail",
@@ -123,7 +123,7 @@ modules.export = [
   {
     name: "Ginevra Weasley",
     role: "student",
-    house: "Gryffindor",
+    house_id: 1,
     school: "Hogwarts School of Witchcraft and Wizardry",
     alias: "Ginny",
     patronus: "horse",
@@ -137,7 +137,7 @@ modules.export = [
   {
     name: "Parvati Patil",
     role: "student",
-    house: "Gryffindor",
+    house_id: 1,
     school: "Hogwarts School of Witchcraft and Wizardry",
     boggart: "mummy",
     ministryOfMagic: false,
@@ -150,7 +150,7 @@ modules.export = [
   {
     name: "Dolores Umbridge",
     role: "Head of the Muggle Born Registration Commission",
-    house: "Slytherin",
+    house_id: 3,
     school: "Hogwarts School of Witchcraft and Wizardry",
     wand: "Birch, 8\", dragon heartstring",
     patronus: "persian cat",
@@ -163,7 +163,7 @@ modules.export = [
   },
   {
     name: "Blaise Zabini",
-    house: "Slytherin",
+    house_id: 3,
     school: "Hogwarts School of Witchcraft and Wizardry",
     ministryOfMagic: false,
     orderOfThePhoenix: false,
@@ -175,7 +175,7 @@ modules.export = [
   {
     name: "Severus Snape",
     role: "Professor, Potions",
-    house: "Slytherin",
+    house_id: 3,
     school: "Hogwarts School of Witchcraft and Wizardry",
     patronus: "doe",
     ministryOfMagic: false,
@@ -187,7 +187,7 @@ modules.export = [
   },
   {
     name: "Tom Riddle",
-    house: "Slytherin",
+    house_id: 3,
     school: "Hogwarts School of Witchcraft and Wizardry",
     alias: "Lord Voldemort",
     wand: "Yew, 13 1/2\", phoenix feather core",
@@ -202,7 +202,7 @@ modules.export = [
   {
     name: "Horace Slughorn",
     role: "Professor, Potions",
-    house: "Slytherin",
+    house_id: 3,
     school: "Hogwarts School of Witchcraft and Wizardry",
     wand: "Cedar, 10 1/4\", dragon heartstring",
     ministryOfMagic: false,
@@ -215,7 +215,7 @@ modules.export = [
   {
     name: "Draco Malfoy",
     role: "student",
-    house: "Slytherin",
+    house_id: 3,
     school: "Hogwarts School of Witchcraft and Wizardry",
     wand: "Hawthorn, 10\", unicorn hair",
     ministryOfMagic: false,
@@ -228,7 +228,7 @@ modules.export = [
   {
     name: "Gregory Goyle",
     role: "student",
-    house: "Slytherin",
+    house_id: 3,
     school: "Hogwarts School of Witchcraft and Wizardry",
     ministryOfMagic: false,
     orderOfThePhoenix: false,
@@ -239,7 +239,7 @@ modules.export = [
   },
   {
     name: "Bellatrix Lestrange",
-    house: "Slytherin",
+    house_id: 3,
     school: "Hogwarts School of Witchcraft and Wizardry",
     alias: "Bella",
     wand: "Walnut, 10 3/4\", dragon heartstring",
@@ -253,7 +253,7 @@ modules.export = [
   {
     name: "Vincent Crabbe",
     role: "Student",
-    house: "Slytherin",
+    house_id: 3,
     school: "Hogwarts School of Witchcraft and Wizardry",
     boggart: "Lord Voldemort",
     ministryOfMagic: false,
@@ -266,7 +266,7 @@ modules.export = [
   {
     name: "Millicent Bulstrode",
     role: "student",
-    house: "Slytherin",
+    house_id: 3,
     school: "Hogwarts School of Witchcraft and Wizardry",
     ministryOfMagic: false,
     orderOfThePhoenix: false,
@@ -278,7 +278,7 @@ modules.export = [
   {
     name: "Terry Boot",
     role: "student",
-    house: "Ravenclaw",
+    house_id: 2,
     school: "Hogwarts School of Witchcraft and Wizardry",
     ministryOfMagic: false,
     orderOfThePhoenix: false,
@@ -290,7 +290,7 @@ modules.export = [
   {
     name: "Cho Chang",
     role: "Student",
-    house: "Ravenclaw",
+    house_id: 2,
     school: "Hogwarts School of Witchcraft and Wizardry",
     patronus: "swan",
     ministryOfMagic: false,
@@ -303,7 +303,7 @@ modules.export = [
   {
     name: "Penelope Clearwater",
     role: "Student",
-    house: "Ravenclaw",
+    house_id: 2,
     school: "Hogwarts School of Witchcraft and Wizardry",
     alias: "Penny",
     ministryOfMagic: false,
@@ -316,7 +316,7 @@ modules.export = [
   {
     name: "Filius Flitwick",
     role: "Professor, Charms",
-    house: "Ravenclaw",
+    house_id: 2,
     school: "Hogwarts School of Witchcraft and Wizardry",
     boggart: "Lord Voldemort",
     ministryOfMagic: false,
@@ -329,7 +329,7 @@ modules.export = [
   {
     name: "Gilderoy Lockhart",
     role: "Professor, Defense Against the Dark Arts",
-    house: "Ravenclaw",
+    house_id: 2,
     school: "Hogwarts School of Witchcraft and Wizardry",
     wand: "Cherry, 9\", dragon heartstring",
     boggart: "cornish pixies",
@@ -343,7 +343,7 @@ modules.export = [
   {
     name: "Luna Lovegood",
     role: "student",
-    house: "Ravenclaw",
+    house_id: 2,
     school: "Hogwarts School of Witchcraft and Wizardry",
     alias: "Loony Lovegood",
     patronus: "hare",
@@ -357,7 +357,7 @@ modules.export = [
   {
     name: "Garrick Ollivander",
     role: "Wandmaker",
-    house: "Ravenclaw",
+    house_id: 2,
     school: "Hogwarts School of Witchcraft and Wizardry",
     wand: "Hornbeam, 12 3/4\", dragon heartstring",
     ministryOfMagic: false,
@@ -370,7 +370,7 @@ modules.export = [
   {
     name: "Padma Patil",
     role: "student",
-    house: "Ravenclaw",
+    house_id: 2,
     school: "Hogwarts School of Witchcraft and Wizardry",
     ministryOfMagic: false,
     orderOfThePhoenix: false,
@@ -382,7 +382,7 @@ modules.export = [
   {
     name: "Sybill Trelawney",
     role: "Professor, Divination",
-    house: "Ravenclaw",
+    house_id: 2,
     school: "Hogwarts School of Witchcraft and Wizardry",
     wand: "Hazel, 9 1/2\", unicorn hair",
     ministryOfMagic: false,
@@ -395,7 +395,7 @@ modules.export = [
   {
     name: "Quirinus Quirrell",
     role: "Professor, Defence Against the Dark Arts",
-    house: "Ravenclaw",
+    house_id: 2,
     school: "Hogwarts School of Witchcraft and Wizardry",
     wand: "Alder, 9\", unicorn hair",
     ministryOfMagic: false,
@@ -408,7 +408,7 @@ modules.export = [
   {
     name: "Hannah Abbott",
     role: "student",
-    house: "Hufflepuff",
+    house_id: 4,
     school: "Hogwarts School of Witchcraft and Wizardry",
     ministryOfMagic: false,
     orderOfThePhoenix: false,
@@ -420,7 +420,7 @@ modules.export = [
   {
     name: "Susan Bones",
     role: "student",
-    house: "Hufflepuff",
+    house_id: 4,
     school: "Hogwarts School of Witchcraft and Wizardry",
     ministryOfMagic: false,
     orderOfThePhoenix: false,
@@ -432,7 +432,7 @@ modules.export = [
   {
     name: "Cedric Diggory",
     role: "Student",
-    house: "Hufflepuff",
+    house_id: 4,
     school: "Hogwarts School of Witchcraft and Wizardry",
     wand: "Ash, 12 1/4\", unicorn hair",
     ministryOfMagic: false,
@@ -445,7 +445,7 @@ modules.export = [
   {
     name: "Justin Finch-Fletchley",
     role: "student",
-    house: "Hufflepuff",
+    house_id: 4,
     school: "Hogwarts School of Witchcraft and Wizardry",
     boggart: "Lord Voldemort ",
     ministryOfMagic: false,
@@ -458,7 +458,7 @@ modules.export = [
   {
     name: "Ernest Macmillan",
     role: "student",
-    house: "Hufflepuff",
+    house_id: 4,
     school: "Hogwarts Academy of Witchcraft and Wizardry",
     alias: "Ernie",
     boggart: "Lord Voldemort",
@@ -473,7 +473,7 @@ modules.export = [
   {
     name: "Newton Scamander ",
     role: "Author, Fantastic Beasts and Where to Find Them",
-    house: "Hufflepuff",
+    house_id: 4,
     school: "Hogwarts School of Witchcraft and Wizardry",
     alias: "Newt ",
     ministryOfMagic: false,
@@ -486,7 +486,7 @@ modules.export = [
   {
     name: "Zacharias Smith",
     role: "student",
-    house: "Hufflepuff",
+    house_id: 4,
     school: "Hogwarts School of Witchcraft and Wizardry",
     ministryOfMagic: false,
     orderOfThePhoenix: true,
@@ -498,7 +498,7 @@ modules.export = [
   {
     name: "Pomona Sprout",
     role: "Professor, Herbology",
-    house: "Hufflepuff",
+    house_id: 4,
     school: "Hogwarts School of Witchcraft and Wizardry",
     ministryOfMagic: false,
     orderOfThePhoenix: false,
@@ -510,7 +510,7 @@ modules.export = [
   {
     name: "Nymphadora Tonks",
     role: "Auror",
-    house: "Hufflepuff",
+    house_id: 4,
     school: "Hogwarts School of Witchcraft and Wizardry",
     alias: "Tonks",
     patronus: "wolf",
@@ -523,7 +523,7 @@ modules.export = [
   },
   {
     name: "Hepzibah Smith",
-    house: "Hufflepuff",
+    house_id: 4,
     school: "Hogwarts School of Witchcraft and Wizardry",
     ministryOfMagic: false,
     orderOfThePhoenix: false,
