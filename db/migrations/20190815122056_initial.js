@@ -18,7 +18,7 @@ exports.up = function(knex) {
     table.string('name');
     table.string('role');
     table.integer('house_id').unsigned();
-    table.foreign('house_id').references('houses.id')
+    table.foreign('house_id').references('houses.id');
     table.string('school');
     table.string('wand');
     table.string('boggtar');
