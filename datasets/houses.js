@@ -1,13 +1,13 @@
-{"houses": [
+modules.export = [
   {
-      "id": "5a05e2b252f721a3cf2ea33f",
-      "name": "Gryffindor",
-      "mascot": "lion",
-      "headOfHouse": "Minerva McGonagall",
-      "houseGhost": "Nearly Headless Nick",
-      "founder": "Goderic Gryffindor",
-      "school": "Hogwarts School of Witchcraft and Wizardry",
-      "members": [
+      id: "5a05e2b252f721a3cf2ea33f",
+      name: "Gryffindor",
+      mascot: "lion",
+      headOfHouse: "Minerva McGonagall",
+      houseGhost: "Nearly Headless Nick",
+      founder: "Goderic Gryffindor",
+      school: "Hogwarts School of Witchcraft and Wizardry",
+      members: [
           "5a0fa7dcae5bc100213c2338",
           "5a1097653dc2080021cd8763",
           "5a109af13dc2080021cd877a",
@@ -19,26 +19,26 @@
           "5a1239c80f5ae10021650dad",
           "5a1223ed0f5ae10021650d70"
       ],
-      "values": [
+      values: [
           "courage",
           "bravery",
           "nerve",
           "chivalry"
       ],
-      "colors": [
+      colors: [
           "scarlet",
           "gold"
       ]
   },
   {
-      "id": "5a05da69d45bd0a11bd5e06f",
-      "name": "Ravenclaw",
-      "mascot": "eagle",
-      "headOfHouse": "Fillius Flitwick",
-      "houseGhost": "The Grey Lady",
-      "founder": "Rowena Ravenclaw",
-      "school": "Hogwarts School of Witchcraft and Wizardry",
-      "members": [
+      id: "5a05da69d45bd0a11bd5e06f",
+      name: "Ravenclaw",
+      mascot: "eagle",
+      headOfHouse: "Fillius Flitwick",
+      houseGhost: "The Grey Lady",
+      founder: "Rowena Ravenclaw",
+      school: "Hogwarts School of Witchcraft and Wizardry",
+      members: [
           "5a0fa8a6ae5bc100213c233b",
           "5a107ffee0686c0021283b21",
           "5a108023e0686c0021283b22",
@@ -50,25 +50,26 @@
           "5a122a880f5ae10021650d82",
           "5a12368a0f5ae10021650da0",
       ],
-      "values": [
+      values: [
           "intelligence",
           "creativity",
           "learning",
           "wit"
       ],
-      "colors": [
+      colors: [
           "blue",
           " bronze"
       ]
   },
   {
-      "id": "5a05dc8cd45bd0a11bd5e071",
-      "name": "Slytherin",
-      "mascot": "serpent",
-      "headOfHouse": "Severus Snape",
-      "houseGhost": "The Bloody Baron",
-      "founder": "Salazar Slytherin",
-      "members": [
+      id: "5a05dc8cd45bd0a11bd5e071",
+      name: "Slytherin",
+      mascot: "serpent",
+      headOfHouse: "Severus Snape",
+      houseGhost: "The Bloody Baron",
+      founder: "Salazar Slytherin",
+      school: "Hogwarts School of Witchcraft and Wizardry",
+      members: [
           "5a107e4ae0686c0021283b1a",
           "5a10942a3dc2080021cd8754",
           "5a109aa03dc2080021cd8779",
@@ -80,26 +81,26 @@
           "5a1236eb0f5ae10021650da1",
           "5a123a710f5ae10021650db1",
       ],
-      "values": [
+      values: [
           "ambition",
           "cunning",
           "leadership",
           "resourcefulness"
       ],
-      "colors": [
+      colors: [
           "green",
           "silver"
       ]
   },
   {
-      "id": "5a05dc58d45bd0a11bd5e070",
-      "name": "Hufflepuff",
-      "mascot": "badger",
-      "headOfHouse": "Pomona Sprout",
-      "houseGhost": "The Fat Friar",
-      "founder": "Helga Hufflepuff",
-      "school": "Hogwarts School of Witchcraft and Wizardry",
-      "members": [
+      id: "5a05dc58d45bd0a11bd5e070",
+      name: "Hufflepuff",
+      mascot: "badger",
+      headOfHouse: "Pomona Sprout",
+      houseGhost: "The Fat Friar",
+      founder: "Helga Hufflepuff",
+      school: "Hogwarts School of Witchcraft and Wizardry",
+      members: [
           "5a0fa4daae5bc100213c232e",
           "5a0fa86dae5bc100213c233a",
           "5a1096253dc2080021cd875f",
@@ -111,15 +112,15 @@
           "5a1234500f5ae10021650d99",
           "5a1235790f5ae10021650d9d",
       ],
-      "values": [
+      values: [
           "hard work",
           "patience",
           "justice",
           "loyalty"
       ],
-      "colors": [
+      colors: [
           "yellow",
           "black"
       ]
   }
-]}
+]
