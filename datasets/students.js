@@ -1,6 +1,5 @@
 modules.export = [
   {
-    id: "5a0fa7dcae5bc100213c2338",
     name: "Sirius Black",
     house: "Gryffindor",
     school: "Hogwarts School of Witchcraft and Wizardry",
@@ -14,7 +13,6 @@ modules.export = [
     species: "human"
   },
   {
-    id: "5a1097653dc2080021cd8763",
     name: "Albus Dumbledore",
     role: "Headmaster, Hogwarts",
     house: "Gryffindor",
@@ -30,7 +28,6 @@ modules.export = [
     species: "human"
   },
   {
-    id: "5a109af13dc2080021cd877a",
     name: "Hermione Granger",
     role: "student",
     house: "Gryffindor",
@@ -46,7 +43,6 @@ modules.export = [
     species: "human"
   },
   {
-    id: "5a109e543dc2080021cd8790",
     name: "Neville Longbottom",
     role: "student",
     house: "Gryffindor",
@@ -61,7 +57,6 @@ modules.export = [
     species: "human"
   },
   {
-    id: "5a109f053dc2080021cd8793",
     name: "Remus Lupin",
     role: "Professor, Defence Against the Dark Arts",
     house: "Gryffindor",
@@ -78,7 +73,6 @@ modules.export = [
     species: "werewolf"
   },
   {
-    id: "5a1223ed0f5ae10021650d70",
     name: "Minerva McGonagall",
     role: "Professor, Transfiguration",
     house: "Gryffindor",
@@ -95,7 +89,6 @@ modules.export = [
     species: "human"
   },
   {
-    id: "5a12292a0f5ae10021650d7e",
     name: "Harry Potter",
     role: "student",
     house: "Gryffindor",
@@ -112,7 +105,6 @@ modules.export = [
     species: "human"
   },
   {
-    id: "5a1239c80f5ae10021650dad",
     name: "Ronald Weasley",
     role: "student",
     house: "Gryffindor",
@@ -129,7 +121,6 @@ modules.export = [
     species: "human"
   },
   {
-    id: "5a1239130f5ae10021650daa",
     name: "Ginevra Weasley",
     role: "student",
     house: "Gryffindor",
@@ -144,7 +135,6 @@ modules.export = [
     species: "human"
   },
   {
-    id: "5a1226520f5ae10021650d76",
     name: "Parvati Patil",
     role: "student",
     house: "Gryffindor",
@@ -158,7 +148,6 @@ modules.export = [
     species: "human"
   },
   {
-    id: "5a1236eb0f5ae10021650da1",
     name: "Dolores Umbridge",
     role: "Head of the Muggle Born Registration Commission",
     house: "Slytherin",
@@ -173,7 +162,6 @@ modules.export = [
     species: "human"
   },
   {
-    id: "5a123a710f5ae10021650db1",
     name: "Blaise Zabini",
     house: "Slytherin",
     school: "Hogwarts School of Witchcraft and Wizardry",
@@ -185,7 +173,6 @@ modules.export = [
     species: "human"
   },
   {
-    id: "5a1233bc0f5ae10021650d97",
     name: "Severus Snape",
     role: "Professor, Potions",
     house: "Slytherin",
@@ -199,7 +186,6 @@ modules.export = [
     species: "human"
   },
   {
-    id: "5a122c200f5ae10021650d88",
     name: "Tom Riddle",
     house: "Slytherin",
     school: "Hogwarts School of Witchcraft and Wizardry",
@@ -214,7 +200,6 @@ modules.export = [
     species: "human"
   },
   {
-    id: "5a1232600f5ae10021650d93",
     name: "Horace Slughorn",
     role: "Professor, Potions",
     house: "Slytherin",
@@ -228,7 +213,6 @@ modules.export = [
     species: "human"
   },
   {
-    id: "5a109f8b3dc2080021cd8795",
     name: "Draco Malfoy",
     role: "student",
     house: "Slytherin",
@@ -242,7 +226,6 @@ modules.export = [
     species: "human"
   },
   {
-    id: "5a109aa03dc2080021cd8779",
     name: "Gregory Goyle",
     role: "student",
     house: "Slytherin",
@@ -255,7 +238,6 @@ modules.export = [
     species: "human"
   },
   {
-    id: "5a109d893dc2080021cd8789",
     name: "Bellatrix Lestrange",
     house: "Slytherin",
     school: "Hogwarts School of Witchcraft and Wizardry",
@@ -269,7 +251,6 @@ modules.export = [
     species: "human"
   },
   {
-    id: "5a10942a3dc2080021cd8754",
     name: "Vincent Crabbe",
     role: "Student",
     house: "Slytherin",
@@ -283,7 +264,6 @@ modules.export = [
     species: "human"
   },
   {
-    id: "5a107e4ae0686c0021283b1a",
     name: "Millicent Bulstrode",
     role: "student",
     house: "Slytherin",
@@ -296,7 +276,6 @@ modules.export = [
     species: "human"
   },
   {
-    id: "5a0fa8a6ae5bc100213c233b",
     name: "Terry Boot",
     role: "student",
     house: "Ravenclaw",
@@ -309,7 +288,6 @@ modules.export = [
     species: "human"
   },
   {
-    id: "5a107ffee0686c0021283b21",
     name: "Cho Chang",
     role: "Student",
     house: "Ravenclaw",
@@ -323,7 +301,6 @@ modules.export = [
     species: "human"
   },
   {
-    id: "5a108023e0686c0021283b22",
     name: "Penelope Clearwater",
     role: "Student",
     house: "Ravenclaw",
@@ -337,7 +314,6 @@ modules.export = [
     species: "human"
   },
   {
-    id: "5a1099cf3dc2080021cd8772",
     name: "Filius Flitwick",
     role: "Professor, Charms",
     house: "Ravenclaw",
@@ -351,7 +327,6 @@ modules.export = [
     species: "part-goblin"
   },
   {
-    id: "5a109de83dc2080021cd878c",
     name: "Gilderoy Lockhart",
     role: "Professor, Defense Against the Dark Arts",
     house: "Ravenclaw",
@@ -366,7 +341,6 @@ modules.export = [
     species: "human"
   },
   {
-    id: "5a109e943dc2080021cd8791",
     name: "Luna Lovegood",
     role: "student",
     house: "Ravenclaw",
@@ -381,7 +355,6 @@ modules.export = [
     species: "human"
   },
   {
-    id: "5a1225a20f5ae10021650d73",
     name: "Garrick Ollivander",
     role: "Wandmaker",
     house: "Ravenclaw",
@@ -395,7 +368,6 @@ modules.export = [
     species: "human"
   },
   {
-    id: "5a12260f0f5ae10021650d75",
     name: "Padma Patil",
     role: "student",
     house: "Ravenclaw",
@@ -408,7 +380,6 @@ modules.export = [
     species: "human"
   },
   {
-    id: "5a12368a0f5ae10021650da0",
     name: "Sybill Trelawney",
     role: "Professor, Divination",
     house: "Ravenclaw",
@@ -422,7 +393,6 @@ modules.export = [
     species: "human"
   },
   {
-    id: "5a122a880f5ae10021650d82",
     name: "Quirinus Quirrell",
     role: "Professor, Defence Against the Dark Arts",
     house: "Ravenclaw",
@@ -436,7 +406,6 @@ modules.export = [
     species: "human"
   },
   {
-    id: "5a0fa4daae5bc100213c232e",
     name: "Hannah Abbott",
     role: "student",
     house: "Hufflepuff",
@@ -449,7 +418,6 @@ modules.export = [
     species: "human"
   },
   {
-    id: "5a0fa86dae5bc100213c233a",
     name: "Susan Bones",
     role: "student",
     house: "Hufflepuff",
@@ -462,7 +430,6 @@ modules.export = [
     species: "human"
   },
   {
-    id: "5a1096253dc2080021cd875f",
     name: "Cedric Diggory",
     role: "Student",
     house: "Hufflepuff",
@@ -476,7 +443,6 @@ modules.export = [
     species: "human"
   },
   {
-    id: "5a1098bd3dc2080021cd876d",
     name: "Justin Finch-Fletchley",
     role: "student",
     house: "Hufflepuff",
@@ -490,7 +456,6 @@ modules.export = [
     species: "human"
   },
   {
-    id: "5a1223720f5ae10021650d6f",
     name: "Ernest Macmillan",
     role: "student",
     house: "Hufflepuff",
@@ -506,7 +471,6 @@ modules.export = [
     species: "human"
   },
   {
-    id: "5a122f3d0f5ae10021650d8d",
     name: "Newton Scamander ",
     role: "Author, Fantastic Beasts and Where to Find Them",
     house: "Hufflepuff",
@@ -520,7 +484,6 @@ modules.export = [
     species: "human"
   },
   {
-    id: "5a12333f0f5ae10021650d96",
     name: "Zacharias Smith",
     role: "student",
     house: "Hufflepuff",
@@ -533,7 +496,6 @@ modules.export = [
     species: "human"
   },
   {
-    id: "5a1234500f5ae10021650d99",
     name: "Pomona Sprout",
     role: "Professor, Herbology",
     house: "Hufflepuff",
@@ -546,7 +508,6 @@ modules.export = [
     species: "human"
   },
   {
-    id: "5a1235790f5ae10021650d9d",
     name: "Nymphadora Tonks",
     role: "Auror",
     house: "Hufflepuff",
@@ -561,7 +522,6 @@ modules.export = [
     species: "human (metamorphmagus)"
   },
   {
-    id: "5a1232b10f5ae10021650d95",
     name: "Hepzibah Smith",
     house: "Hufflepuff",
     school: "Hogwarts School of Witchcraft and Wizardry",
