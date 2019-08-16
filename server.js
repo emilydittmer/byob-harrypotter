@@ -48,6 +48,27 @@ app.get('/api/v1/students/:id', (request, response) => {
   });
 })
 
+app.post('/api/v1/houses', (request, response) => {
+  const house = request.body;
+
+  for(let requiredParam of ['name', 'mascot', 'head', 'ghost', 'founder', 'school', 'color' ]) {
+    if(!house[requiredParam]) {
+      return response
+      .status(422)
+      .send({Error: `Expected format: { name: <string>, mascot: <string> }. You are missing ${requiredParam} property.`})
+    }
+  }
+
+  database('house').insert(house, 'id')
+    .then(house => {
+      response.status(201).json({ id: house[0] })
+    })
+    .catch(error => {
+      response.status(500).json({error})
+    })
+
+})
+
 app.listen(app.get('port'), () => {
   console.log(`${app.locals.title} is running on http://localhost:${app.get('port')}.`);
 });
