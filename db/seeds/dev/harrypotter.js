@@ -21,10 +21,8 @@ exports.seed = function(knex) {
 };
 
 const createStudent = (knex, student) => {
-  console.log(student.house_id);
   return knex('houses').where('id', student.house_id).first()
   .then((houseRecord) => {
-    console.log(houseRecord);
     return knex('students').insert({
       ...student,
       house_id: houseRecord.id
