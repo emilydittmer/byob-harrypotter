@@ -19,14 +19,14 @@ app.get('/api/v1/houses', (request, response) => {
     .select()
     .then(houses => response.status(200).json(houses))
     .catch(error => response.status(500).json({error}))
-})
+});
 
 app.get('/api/v1/students', (request, response) => {
   database('students')
     .select()
     .then(students => response.status(200).json(students))
     .catch(error => response.status(500).json({error}))
-})
+});
 
 app.get('/api/v1/houses/:id', (request, response) => {
   database('houses').where('id', request.params.id).select()
@@ -36,7 +36,7 @@ app.get('/api/v1/houses/:id', (request, response) => {
   .catch((error) => {
     response.status(500).json({ error });
   });
-})
+});
 
 app.get('/api/v1/students/:id', (request, response) => {
   database('students').where('id', request.params.id).select()
@@ -46,20 +46,19 @@ app.get('/api/v1/students/:id', (request, response) => {
   .catch((error) => {
     response.status(500).json({ error });
   });
-})
+});
 
 app.post('/api/v1/houses', (request, response) => {
-  const house = request.body;
+  const newHouse = request.body;
 
-  for(let requiredParam of ['name', 'mascot', 'head', 'ghost', 'founder', 'school', 'color' ]) {
-    if(!house[requiredParam]) {
-      return response
-      .status(422)
-      .send({Error: `Expected format: { name: <string>, mascot: <string> }. You are missing ${requiredParam} property.`})
+  for(let requiredParameter of ['name', 'mascot', 'head', 'ghost', 'founder', 'school', 'color' ]) {
+    if(!newHouse[requiredParameter]) {
+      return response.status(422)
+      .json({Error: `House was not added. You are missing ${requiredParameter} property.`})
     }
   }
 
-  database('house').insert(house, 'id')
+  database('houses').insert(newHouse, 'id')
     .then(house => {
       response.status(201).json({ id: house[0] })
     })
@@ -67,7 +66,27 @@ app.post('/api/v1/houses', (request, response) => {
       response.status(500).json({error})
     })
 
-})
+});
+
+app.post('/api/v1/students', (request, response) => {
+  const newStudent = request.body;
+
+  for(let requiredParameter of ['name', 'house_id', 'school', 'ministryOfMagic', 'orderOfThePhoenix', 'dumbledoresArmy', 'deathEater', 'bloodStatus', 'species' ]) {
+    if(!newStudent[requiredParameter]) {
+      return response.status(422)
+      .json({Error: `Student was not added. You are missing ${requiredParameter} property.`})
+    }
+  }
+
+  database('students').insert(newStudent, 'id')
+    .then(student => {
+      response.status(201).json({ id: student[0] })
+    })
+    .catch(error => {
+      response.status(500).json({error})
+    })
+
+});
 
 app.listen(app.get('port'), () => {
   console.log(`${app.locals.title} is running on http://localhost:${app.get('port')}.`);
