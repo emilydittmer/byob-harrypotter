@@ -88,6 +88,22 @@ app.post('/api/v1/students', (request, response) => {
 
 });
 
+app.delete('/api/v1/students/:id', (request, response) => {
+  const { id } = request.params;
+
+  database('students').where({ id }).del()
+    .then(result => {
+      if(result) {
+        response.status(204).send();
+      } else {
+        response.status(404).json({Error: `No student found with the id of ${id}`})
+      }
+    })
+    .catch(error => {
+      response.status(500).json({ error })
+    })
+});
+
 app.listen(app.get('port'), () => {
   console.log(`${app.locals.title} is running on http://localhost:${app.get('port')}.`);
 });
