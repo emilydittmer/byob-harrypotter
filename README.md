@@ -139,17 +139,17 @@ animagus: null
 
 
 ### POST /api/v1/houses
--This endpoint will allow a user to add a new house to the dataset.
--Should return a message if the house was posted successfully
+- This endpoint will allow a user to add a new house to the dataset.
+- Should return a message if the house was posted successfully
 
 **Required properties: name, mascot, head, ghost, founder, school, and color
 
 ### POST /api/v1/students
--This endpoint will allow a user to create add an additional student to the database
--Should return a message if the book was posted successfully
+- This endpoint will allow a user to create add an additional student to the database
+- Should return a message if the book was posted successfully
 
 **Required properties: name, house_id, school, ministryOfMagic, orderOfThePhoenix, dumbledoresArmy, deathEater, bloodStatus, and species
 
 
 ### DELETE /api/v1/students/:id
--This endpoint expects an parameter to be passed in the url (id), which represents the id of a single student to be deleted
+- This endpoint expects an parameter to be passed in the url (id), which represents the id of a single student to be deleted
