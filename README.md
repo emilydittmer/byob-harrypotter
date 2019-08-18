@@ -2,10 +2,16 @@
 
 # Summary
 
+**Harry Potter Backend** is a RESTful API built in a week. It provides data about the houses of Hogwarts School of Witchcraft and Wizardy and ten students from each house. Users can receive data through GET requests, add data to the API through POST requests, and delete data with DELETE requests.
 
-## ENDPOINTS
+## Tech Stack
 
-- Main endpoint: https://byob-harrypotter.herokuapp.com/api/v1/houses
+Express, Knex, PostgreSQL, Heroku
+
+## Endpoints
+
+* Houses Data: https://byob-harrypotter.herokuapp.com/api/v1/houses
+* Students Data: https://byob-harrypotter.herokuapp.com/api/v1/students
 
 ## API Calls
 
