@@ -6,7 +6,10 @@
 
 ## Tech Stack
 
-Express, Knex, PostgreSQL, Heroku
+[Express](https://expressjs.com/)
+[Knex](https://knexjs.org/)
+[PostgreSQL](https://www.postgresql.org/)
+[Heroku](https://www.heroku.com/)
 
 ## Endpoints
 
